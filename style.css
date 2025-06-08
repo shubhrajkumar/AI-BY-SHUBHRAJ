@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #000007;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+#logo {
+    width: 350px;
+    background: wheat; /* Example: white background */
+    border: 5px solid #129dee; /* Example: blue border */
+    border-radius: 50%;
+    padding: 10px; /* Optional: space between image and border */
+    box-shadow: 0 4px 16px rgba(0, 191, 255, 0.2);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    align-items: center;
+    /* Optional: subtle glow */
+}
+  /* Optional: subtle glow */
+
+#logo:hover {
+    filter: drop-shadow(0 0 20px #fffdef);
+    box-shadow:
+        0 0 20px 10px #129dee,
+        0 0 40px 20px #ec5c08;
+    transform: scale(1.05) rotateY(10deg) rotateX(5deg);
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+h1{
+    color:aqua;
+    font-family: "Playfair Display", serif;
+    align-items: center;
+
+}
+p{
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    text-shadow: 2px 2px 10px rgb(225, 234, 235);
+    font-size: 1.2rem;
+    color: rgb(209, 217, 219);
+    text-align: center;
+    background: linear-gradient(to right, rgb(6, 64, 223), rgb(12, 151, 82));
+    padding: 20px;  
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(6, 64, 223), 2px 2px 10px rgb(12, 151, 82);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    transition: all 0.3s ease-in-out;
+    grid-area: 100px;
+    border-radius: 50PX;
+    align-items: center;
+    
+}
+#text{
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    text-shadow: 2px 2px 10px rgb(214, 49, 8);
+    font-size: 1.2rem;
+    color: rgb(224, 64, 64);
+    text-align: center;
+    background: linear-gradient(to right, rgb(6, 64, 223), rgb(12, 151, 82));
+    padding: 20px;  
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(6, 64, 223), 2px 2px 10px rgb(12, 151, 82);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    transition: all 0.3s ease-in-out;
+    grid-area: 100px;
+    border-radius: 50PX;
+    align-items: center;
+}
+#name{
+    color: rgb(129, 170, 207);
+   font-size : 50px;
+   align-items: center ;
+   font-style: oblique;
+}
+#va{
+    color: palevioletred;
+    font-size: 50px;
+    align-items: center;
+}
+#SU {
+    color: palevioletred;
+    font-size: 50px;
+    align-self: start;
+   font-family: "Playfair Display", serif;
+    font-style: oblique;
+}
+#SU:hover {
+    filter: drop-shadow(0 0 20px #fffdef);
+    box-shadow:
+        0 0 20px 5px #129dee,
+        0 0 40px 10px #ec5c08;
+    transform: scale(1.05) rotateY(10deg) rotateX(5deg);
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+#voice{
+    width: 300px;
+    display: none;
+}
+button{
+    width: 100%;
+    background: linear-gradient(to right,rgb(120, 149, 226),rgb(236, 92, 8));
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: center ;
+    grid-area: 10px ;
+    font-size: 25px;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(120, 149, 226),2px 2px 10px rgb(236, 92, 8);
+    border: none;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    align-items: left;
+}
+
+button:hover{
+     box-shadow: 2px 2px 20px rgb(120, 149, 226),2px 2px 2cap rgb(236, 92, 8);
+     letter-spacing: 1px;
+
+}
+#voice{
+    width: 400px;
+    display: none;
+    background: linear-gradient(to right,rgb(120, 149, 226),rgb(236, 92, 8));
+    padding: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    grid-area: 10px ;
+    font-size: 20px;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(120, 149, 226),2px 2px 10px rgb(236, 92, 8);
+    border: none;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+#voice:hover {
+    filter: drop-shadow(0 0 20px #fffdef);
+    box-shadow:
+        0 0 20px 5px #129dee,
+        0 0 40px 10px #ec5c08;
+    transform: scale(1.05) rotateY(10deg) rotateX(5deg);
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
